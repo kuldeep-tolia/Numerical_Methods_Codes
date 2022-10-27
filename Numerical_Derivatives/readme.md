@@ -11,6 +11,6 @@ $$\frac{du}{dx} = -tan(x) - x sec^2x$$
 $$\left. \frac{du}{dx} \right|_0 = \frac{ u_1 - u_0}{\Delta x}, TE \sim O(\Delta x)$$ 
 
 - $2^{nd}$ order accurate:    
-$$\left. \frac{du}{dx} \right|_0 = \frac{ 4u_1 - 3u_0} - u_2{ 2 \Delta x}, TE \sim (\Delta x^2)$$
+$$\left. \frac{du}{dx} \right|_0 = \frac{ 4u_1 - 3u_0 - u_2}{ 2 \Delta x}, TE \sim (\Delta x^2)$$
 
 NOTE: The corresponding backward-difference formulae is used of the same order of accuracy, to compute the first derivative near the boundary location.  
