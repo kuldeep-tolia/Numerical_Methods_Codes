@@ -6,3 +6,4 @@ Problem Description:
 -> Given system of equations:  
 $$x_1+x_2+x_3 = 3$$
 $$x_1^2 + x_2^2 + x_3^2 = 5$$
+$$e^{x_1} + x_1 x_2 - x_1 x_3 = 1$$
