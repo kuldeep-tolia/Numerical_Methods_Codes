@@ -1,6 +1,6 @@
 Problem Description:  
 
--> This is a program to solve for an initial value problem using different numerical time integration methods and compare the errors associated with different time step sizes.  
+-> This is a program to solve for an Ordinary Differential Equation (ODE) and an initial value problem using different numerical time integration methods and compare the errors associated with different time step sizes.  
 -> Consider the following initial value problem:  
 $$\frac{dy}{dt} = -\lambda \left( y - e^{-t} \right) - e^{-t}, \lambda>0$$  
 -> The initial condition is $y(t=0)=y_0=10$, $\lambda=10$.  
