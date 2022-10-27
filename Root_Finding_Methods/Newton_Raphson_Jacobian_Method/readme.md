@@ -4,5 +4,5 @@ Problem Description:
 -> Guess-1: $x = \left[0.1, 1.2, 2.5 \right]^T$  
 -> Guess-2: $x = \left[1, 0, 1 \right]^T$  
 -> Given system of equations:  
-$$x1+x2+x3 &=& 3$$
-$$x1^2 + x2^2 + x3^2 &=& 5$$
+$$x1+x2+x3 = 3$$
+$$x1^2 + x2^2 + x3^2 = 5$$
