@@ -16,4 +16,6 @@ $$\left. \frac{du}{dx} \right|_0 = \frac{ 4u_1 - 3u_0 - u_2}{ 2 \Delta x}, TE \s
 - $4^{th}$ order accurate:    
 $$\left. \frac{du}{dx} \right|_0 = \frac{ 48u_1 - 25u_0 - 36u_2 + 16u_3 - 3u_4}{ 12 \Delta x}, TE \sim (\Delta x^4)$$
 
+where $TE$ denotes the truncation error.
+
 NOTE: The corresponding backward-difference formulae is used of the same order of accuracy, to compute the first derivative near the boundary location.  
