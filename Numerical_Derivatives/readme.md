@@ -8,6 +8,6 @@ $$\frac{du}{dx} = -tan(x) - x sec^2x$$
 -> The following are the forward-difference formulae to compute the first derivative, along with their corresponding truncation errors:  
 
 - $1^{st}$ order accurate:  
-$$\left( \frac{du}{dx} \right)_i = \frac{1 - u_i }{\Delta x}$$
+$$\left( \frac{du}{dx} \right)_i = \frac{u_{i+1} - u_i }{\Delta x}$$
 
 NOTE: The corresponding backward-difference formulae is used of the same order of accuracy, to compute the first derivative near the boundary location.  
