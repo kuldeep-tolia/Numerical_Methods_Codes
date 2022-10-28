@@ -13,3 +13,4 @@ $$T_i^{n+1} = F T_{i-1}^n + (1-2F)T_i^n + FT_{i+1}^n + S(x_i)\Delta t, F = \frac
 $$-FT_{i-1}^{n+1} + (1+2F)T_i^{n+1} - FT_{i+1}^{n+1} = T_i^n + S(x_i)\Delta t, F = \frac{\alpha \Delta t}{\Delta x^2}$$
 -> The discrete equation for Crank-Nicolson time advancement with $2^{nd}$ order Central Difference scheme for spatial derivative is  
 $$-FT_{i-1}^{n+1} + (1+2F)T_i^{n+1} - FT_{i+1}^{n+1} = F T_{i-1}^n + (1-2F)T_i^n + FT_{i+1}^n + S(x_i)\Delta t, F = \frac{\alpha \Delta t}{2 \Delta x^2}$$
+-> The discrete equations obtained for implicit schemes involves solving for a system of linear algebraic equations. Thus, thomas algorithm is used to solve for a tri-diagonal matrix system.  
