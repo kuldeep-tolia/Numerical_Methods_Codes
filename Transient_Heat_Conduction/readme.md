@@ -6,3 +6,6 @@ $$\frac{\partial T}{\partial t} = \alpha \frac{\partial^2 T}{\partial x^2} + S(x
 $$T_{steady}(x) = x^2 e^{-x}$$  
 -> Solve the equation to steady state on a uniform grid with a grid spacing of $\Delta x = 1,0.1$ and employing a time step of $\Delta t =  0.005$. For time advancement, Explicit Euler, Implict Euler and Crank-Nicolson methods are used along with second-order central difference scheme for spatial derivative.  
 -> The exact and numerical solutions are compared along with the variation of error in 1-norm.  
+
+-> The discrete equation for Explicit Euler time advancement with $2^{nd}$ order Central Difference scheme for spatial derivative is  
+$$T_i^{n+1} = F T_{i-1}^n$$
