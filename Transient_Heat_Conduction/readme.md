@@ -8,4 +8,4 @@ $$T_{steady}(x) = x^2 e^{-x}$$
 -> The exact and numerical solutions are compared along with the variation of error in 1-norm.  
 
 -> The discrete equation for Explicit Euler time advancement with $2^{nd}$ order Central Difference scheme for spatial derivative is  
-$$T_i^{n+1} = F T_{i-1}^n$$
+$$T_i^{n+1} = F T_{i-1}^n + (1-2F)T_i^n + FT_{i+1}^n + S(x_i)\Delta t, F = \frac{\alpha \Delta t}{\Delta x^2}$$
