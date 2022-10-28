@@ -9,3 +9,5 @@ $$T_{steady}(x) = x^2 e^{-x}$$
 
 -> The discrete equation for Explicit Euler time advancement with $2^{nd}$ order Central Difference scheme for spatial derivative is  
 $$T_i^{n+1} = F T_{i-1}^n + (1-2F)T_i^n + FT_{i+1}^n + S(x_i)\Delta t, F = \frac{\alpha \Delta t}{\Delta x^2}$$
+-> The discrete equation for Implicit Euler time advancement with $2^{nd}$ order Central Difference scheme for spatial derivative is  
+$$-FT_{i-1}^{n+1} + (1-2F)T_i^{n+1} - FT_{i+1}^{n+1} = T_i^n + S(x_i)\Delta t, F = \frac{\alpha \Delta t}{\Delta x^2}$$
